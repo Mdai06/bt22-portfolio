@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bùi Minh Đài | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container"><a class="brand" href="index.html">Minh Đài<span>.</span></a>
+            <div class="links"><a href="index.html">Trang chủ</a><a href="about.html">Giới thiệu</a><a
+                    href="projects.html">Dự án</a><a href="contact.html">Liên hệ</a><button id="theme" type="button"
+                    aria-label="Đổi giao diện">☾</button></div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero reveal">
+            <div><span class="badge">SINH VIÊN CÔNG NGHỆ THÔNG TIN</span>
+                <h1>Xin chào, mình là <span>Minh Đài.</span></h1>
+                <p>Mình đến từ Gia Lai, hiện đang học tập tại TP. Hồ Chí Minh. Mình yêu thích lập trình và khám phá công
+                    nghệ web.</p><a class="btn" href="projects.html">Khám phá dự án →</a> <a class="btn secondary"
+                    href="contact.html">Liên hệ</a>
+            </div>
+            <div class="avatar">
+                <picture>
+                    <source srcset="images/avatar.jpg"><img src="images/avatar.jpg"
+                        onerror="this.parentElement.querySelector('source').remove();this.src='images/avatar.jpg';this.onerror=null;"
+                        alt="Ảnh cá nhân ">
+                </picture>
+            </div>
+        </section>
+        <section class="reveal">
+            <h2>Dự án nổi bật</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Website Gia Lai</h3>
+                    <p>Giới thiệu cảnh đẹp, văn hóa và ẩm thực quê hương.</p>
+                </article>
+                <article class="card">
+                    <h3>Máy tính JavaScript</h3>
+                    <p>Thực hành xử lý sự kiện và phép tính cơ bản.</p>
+                </article>
+                <article class="card">
+                    <h3>Portfolio cá nhân</h3>
+                    <p>Giao diện responsive và chế độ sáng tối.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>© 2026 Bùi Minh Đài · Portfolio cá nhân</footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
